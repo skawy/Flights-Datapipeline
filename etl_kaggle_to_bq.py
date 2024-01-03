@@ -128,7 +128,7 @@ def trigger_spark_job(file_name: str) -> None:
 
 @flow(name="Kaggle To GCS Flow")
 def etl_kaggle_gcs_bq(csv_path : Path) -> None :
-    """the full cycle of a single file from reading it to be uploaded in gcs"""
+    """the full pipeline of a single CSV from downloading, reading, uploaded in gcs and created in BigQuery"""
     df = pd.read_csv(csv_path)
     clean_df = clean(df)
     # Using stem attribute of Path module,extracted the file name.
