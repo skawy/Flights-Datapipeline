@@ -12,3 +12,15 @@
  
 
 ## 1. Problem Description
+
+## 2. Objective
+
+## 3. Technologies
+
+## 4. Data Source
+
+## 5. Architecture
+
+## 6. Data Wokflow
+
+## 7. Dashboard
