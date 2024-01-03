@@ -34,7 +34,9 @@ Below tools have been used for this project:
   >2. **Flights(2).csv**
 
 ## 5. Architecture
+![Alt text](images/architecture.png)
 
 ## 6. Data Wokflow
+![Prefect](imaegs/Prefect.png)
 
 ## 7. Dashboard
