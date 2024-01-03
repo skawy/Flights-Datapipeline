@@ -13,7 +13,10 @@
 
 ## 1. Problem Description
 
+The aim of this project is to create a data pipeline that takes the Kaggle dataset of sample flights and airports and produces a visualization of airlines used, tourism between different countries, Price per these flights and most flights takeoff cities,airports and countries and most landed cities,airports and countries. This information is fully based in this dataset, so it can be a nice demonstration of the use of data engineering tools, and In case I have airline data i can fully visuallize the most important aspects of these data.
+
 ## 2. Objective
+Develop a Data Pipeline to handle ingestion, processing and serving to analytics tools such as google looker studio, Create a dashboard for users or stalkholer to fully understand and use these analytics to know profit, what airlines people loves to travel with and what most visited country in this year *"In Case i have the timestamp information in the data"*
 
 ## 3. Technologies
 
