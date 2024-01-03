@@ -30,8 +30,8 @@ Below tools have been used for this project:
   
 ## 4. Data Source
 - Datasets was taken from [Flight Data](https://www.kaggle.com/datasets/salikhussaini49/flight-data/data):
-  > **Airports.csv**
-  > **Flights(2).csv**
+  >1. **Airports.csv**
+  >2. **Flights(2).csv**
 
 ## 5. Architecture
 
