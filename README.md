@@ -37,6 +37,6 @@ Below tools have been used for this project:
 ![Alt text](images/architecture.png)
 
 ## 6. Data Wokflow
-![Alt text](imaegs/Prefect.png)
+![Alt text](images/Prefect.png)
 
 ## 7. Dashboard
