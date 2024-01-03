@@ -131,14 +131,9 @@ def etl_kaggle_gcs_bq(csv_path : Path) -> None :
     """the full pipeline of a single CSV from downloading, reading, uploaded in gcs and created in BigQuery"""
     df = pd.read_csv(csv_path)
     clean_df = clean(df)
-    # Using stem attribute of Path module,extracted the file name.
-    # It works for python 3.4 and above.
-    # the filename without the final extension
     parquet_path = csv_to_parquet(clean_df,file_name = csv_path.stem)
     parquet_file = write_to_gcs(parquet_path) 
-
-    # regex to Remove all special characters, punctuation and spaces from string
-    # .split('.')[0] to remove the extention from file name
+    
     project_id = 'resolute-choir-403411'
     dataset_id = 'flights'
     table_id = re.sub('[^A-Za-z0-9]+', '',parquet_file.split('.')[0]) 

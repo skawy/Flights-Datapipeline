@@ -74,12 +74,18 @@ def write_to_bq(destination:str, project_id:str, df: pd.DataFrame) -> None:
 
 
 # =========================================================================
-
+# Using stem attribute of Path module,extracted the file name.
+# It works for python 3.4 and above.
+# the filename without the final extension
 # This Code is to get valid table name from giving path
-# regex  to Remove all special characters, punctuation and spaces from string
+# aregex  to Remove all special characters, punctuation and spaces from string
+
 file_no_extention = csv_path.stem
 table_id = re.sub('[^A-Za-z0-9]+', '',file_no_extention)
 
+#Path.stem is equivalent to path.name with no extention
+# and we can remove extention by using 
+Path.name.split('.')[0]
 
 # =========================================================================
 
