@@ -19,8 +19,19 @@ The aim of this project is to create a data pipeline that takes the Kaggle datas
 Develop a Data Pipeline to handle ingestion, processing and serving to analytics tools such as google looker studio, Create a dashboard for users or stalkholer to fully understand and use these analytics to know profit, what airlines people loves to travel with and what most visited country in this year *"In Case i have the timestamp information in the data"*
 
 ## 3. Technologies
-
+Below tools have been used for this project:
+- **Data pipeline Scripts** Python 3.11
+- **Workflow orchestration:** Prefect
+- **Data Lake:** Google Cloud Storage (GCS)
+- **Data Warehouse:** BigQuery
+- **Transformations:** Apache Spark
+- **Cloud Apache Cluster:** Google Dataproc
+- **Visualization:** Google Looker Studio
+  
 ## 4. Data Source
+- Datasets was taken from [Flight Data](https://www.kaggle.com/datasets/salikhussaini49/flight-data/data):
+  > **Airports.csv**
+  > **Flights(2).csv**
 
 ## 5. Architecture
 
