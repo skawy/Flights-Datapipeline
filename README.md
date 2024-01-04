@@ -36,7 +36,7 @@ Below tools have been used for this project:
 ## 5. Architecture
 ![Alt text](images/architecture.png)
 
-## 6. Data Wokflow
+## 6. Data Workflow
 ![Alt text](images/Prefect.png)
 
 ## 7. Dashboard
