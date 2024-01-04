@@ -1,4 +1,4 @@
-:flight_arrival:# Flights Data pipeline
+# :flight_arrival: Flights Data pipeline
 
 ## Table Of Contents
 
