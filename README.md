@@ -40,3 +40,15 @@ Below tools have been used for this project:
 ![Alt text](images/Prefect.png)
 
 ## 7. Dashboard
+#### Main Questions
+1. How Many Flights Between All Countries ?
+2. What Is The Picked Airline by Passengers ?
+3. How Many Flights Takeoff From Each Airport ?   
+4. What Is The Most Visited Countries ?
+5. What Is The Price Of These Flights In Each Country ?
+
+#### Iam Just Picking Saudi Arabia As The Origin but You Can Select All Countries Together like in the pdf
+![image](images/dashboard_1.png)
+
+#### You Can Hover on any Country nd See How Many Flights Starts From It
+![image](images/dashboard_2.png)
