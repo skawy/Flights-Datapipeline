@@ -3,7 +3,7 @@
 ## Table Of Contents
 
 - 1. [Problem Description](#1-Problem-Description)
-- 2. [Objective](#2-Problem-Description)
+- 2. [Objective](#2-Objective)
 - 3. [Technologies](#3-Technologies)
 - 4. [Data Source](#4-Data-Source)
 - 5. [Architecture](#5-Architecture)
