@@ -50,5 +50,5 @@ Below tools have been used for this project:
 #### Iam Just Picking Saudi Arabia As The Origin but You Can Select All Countries Together like in the pdf
 ![image](images/dashboard_1.png)
 
-#### You Can Hover on any Country nd See How Many Flights Starts From It
+#### You Can Hover on any Country in This Map and See How Many Flights Starts From It
 ![image](images/dashboard_2.png)
