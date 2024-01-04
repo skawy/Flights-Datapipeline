@@ -51,4 +51,5 @@ Below tools have been used for this project:
 ![image](images/dashboard_1.png)
 
 #### In This Map You Can Hover on any Country and See How Many Flights Starts From It
+**If The country has a more records its going to have darker blue**
 ![image](images/dashboard_2.png)
